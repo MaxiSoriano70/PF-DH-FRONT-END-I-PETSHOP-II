@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-container-top {
+  align-items: center;
+  background-color: #222;
+  color: #f3f3f3;
+  display: flex;
+  font-weight: 400;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.header-list {
+  list-style: none;
+}
+
+.header-list li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header-container-botton {
+  align-items: center;
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.logo-base {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+}
+
+.logo-first {
+  color: #3c2313;
+}
+
+.nav-links {
+  color: #fff;
+  font-size: 13px;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.hamburguesa{
+  display: none;
+}
+
+.banner {
+  align-items: center;
+  background-image: url("../img/Slide.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-weight: 400;
+  height: 80vh;
+  justify-content: right;
+  width: 100%;
+}
+
+.contenido-banner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 20px;
+}
+
+.contenido-banner h2 {
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 5px 10px;
+}
+
+.contenido-banner p {
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.button-comederos {
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+.contenido-banner a {
+  background-color: #f0a83e;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.productos-destacados {
+  padding: 20px 0;
+}
+
+.titulo-seccion {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.titulo-seccion img {
+  height: 75px;
+  width: 70px;
+}
+.titulo-seccion h2 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.categorias-productos{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  word-spacing: 1em;
+}
+
+.productos-stock{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.producto{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.producto p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.producto span {
+  color: #f0a83e;
+  font-weight: bold;
+}
+
+.form-contactos{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.form-contactos form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-contactos form input{
+  background-color: #3c2313;
+  border-radius: 15px;
+  color: #fff;
+  height: 40;
+  margin-top: 15px;
+  padding: 10px 15px;
+  width: 340px;
+}
+
+.form-contactos form input::placeholder{
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.buttons-form{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.resetear{
+  background-color: #8A9898;
+  border-radius: 15px;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  height: 34px;
+  width: 110px;
+}
+
+.enviar{
+  background-color: #f0a83e;
+  border-radius: 15px;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  height: 34px;
+  width: 110px;
+}
+
+.suscribete{
+  align-items: center;
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.titulo-suscribete{
+  align-items: center;
+  display: flex;
+}
+
+.titulo-suscribete h2{
+  color: #fff;
+  margin-left: 10px;
+}
+
+.suscribete form input{
+  border-radius: 15px;
+  border: none;
+  height: 40px;
+  padding: 10px 15px;
+  width: 275px;
+}
+
+.suscribirme{
+  background-color: #3c2313;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  height: 34px;
+  padding: 10px;
+}
+
+.informacion {
+  align-items: center;
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+.dato{
+  display: flex;
+  padding: 10px 0;
+}
+
+.dato-descripcion{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.dato-descripcion h3 {
+  align-items: flex-start;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: flex-start;
+}
+
+.dato-descripcion p {
+  color: #8a8787;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.logo-footer {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+}
+
+.logo-second-front {
+  color: #fff;
+}
+
+.logo-second-cyd {
+  color: #f0a83e;
+}
+
+.copyright {
+  background-color: #222;
+  padding: 5px 0;
+  color: #fff;
+  text-align: center;
+}
+.copyright p {
+  font-weight: 700;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 820px){
+  .suscribete{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .productos-stock{
+    flex-direction: column;
+  }
+
+  .producto{
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .header-container-botton{
+    height: 10vh;
+  }
+
+  .header-container-top{
+    display: none;
+  }
+  
+  nav{
+    display: none;
+  }
+
+  .hamburguesa{
+    display: block;
+  }
+
+  .banner{
+    height: 60vh;
+    justify-content: center;
+  }
+  
+  .resetear{
+    width: 180px;
+  }
+  
+  .enviar{
+    width: 180px;
+  }
+
+  .informacion {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .suscribete form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+  }
+
+  .resetear{
+    width: 120px;
+  }
+  
+  .enviar{
+    width: 120px;
+  }
+}
