@@ -348,7 +348,7 @@ header {
   .header-container-top{
     display: none;
   }
-  
+
   nav{
     display: none;
   }
@@ -361,11 +361,11 @@ header {
     height: 60vh;
     justify-content: center;
   }
-  
+
   .resetear{
     width: 180px;
   }
-  
+
   .enviar{
     width: 180px;
   }
@@ -376,18 +376,35 @@ header {
 }
 
 @media screen and (max-width: 420px){
+  .form-contactos form input{
+    width: 90%;
+  }
+
+  .suscribete{
+    padding: 10px;
+  }
+
   .suscribete form{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 10px 5px;
+    width: 100%;
+  }
+
+  .suscribete form input{
+    width: 90%;
+  }
+
+  .suscribirme{
+    margin-top: 15px;
   }
 
   .resetear{
     width: 120px;
   }
-  
+
   .enviar{
     width: 120px;
   }
